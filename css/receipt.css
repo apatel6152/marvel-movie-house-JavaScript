@@ -1,0 +1,23 @@
+body {
+    background-color: #30336b;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.movie-container {
+    margin: 0px 20px;
+}
+
+.receipt-header {
+    color: #FA233B;
+}
+
+.table-hover {
+    color: #FA233B;
+}

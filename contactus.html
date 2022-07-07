@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/contactus.css" />
+    <link rel="icon" type="image/png" href="image/Favicon.png" />
+    <title>Movie Ticket</title>
+</head>
+
+<body>
+    <nav id="navbar"></nav>
+
+    <header id="dynamic-header"></header>
+
+    <div class="contactUs">
+        <div class="row mt-5">
+            <div class="col-md-3">
+                <div class="iconBox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-map-marker"></span>
+                    </div>
+                    <div class="text">
+                        <p>Address: Conestoga College
+                            299 Doon Valley Dr, Kitchener, ON N2G 4M4, Canada
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="iconBox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-paper-plane"></span>
+                    </div>
+                    <div class="text">
+                        <p>Email: <a href="mailto:marvel@mavelHouse.gmail.com">marvel@mavelHouse.gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="iconBox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-phone"></span>
+                    </div>
+                    <div class="text">
+                        <p>Phone: <a href="tel://0123456789">012 345 6789</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="iconBox w-100 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="fa fa-globe"></span>
+                    </div>
+                    <div class="text">
+                        <p>WebSite: <a href="home.html">Go Website</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 formStyle">
+                <h1>Contact Us</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Enter Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div id="map" class="col-md-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7149.4471412283!2d-80.40906799058683!3d43.389819473359026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b9018e9e89adf%3A0x2043c24369ede07e!2sConestoga%20College%20Kitchener%20-%20Doon%20Campus!5e0!3m2!1sen!2sin!4v1628682521984!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy" height="530" width="500" ></iframe>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

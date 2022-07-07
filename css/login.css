@@ -1,0 +1,35 @@
+/* :root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../image/MarvelBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #f9fafb; */
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  color: #e74c3c;
+  font-weight: bolder;
+}
+
+h3{
+  color: white;
+}
+
+label {
+  color: white;
+}
+
