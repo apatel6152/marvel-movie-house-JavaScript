@@ -1,46 +1,5 @@
 let seatData = [
   {
-<<<<<<< Updated upstream
-    seat1: 'seat', seat2: 'seat', seat3: 'seat occupied', seat4: 'seat occupied', seat5: 'seat', seat6: 'seat', seat7: 'seat', seat8: 'seat', seat9: 'seat'
-=======
-<<<<<<< HEAD
-    seat1: 'seat',
-    seat2: 'seat',
-    seat3: 'seat occupied',
-    seat4: 'seat occupied',
-    seat5: 'seat',
-    seat6: 'seat',
-    seat7: 'seat',
-    seat8: 'seat',
-    seat9: 'seat',
->>>>>>> Stashed changes
-  },
-  {
-    seat1: 'seat', seat2: 'seat', seat3: 'seat', seat4: 'seat', seat5: 'seat', seat6: 'seat', seat7: 'seat', seat8: 'seat occupied', seat9: 'seat occupied'
-  },
-  {
-    seat1: 'seat', seat2: 'seat', seat3: 'seat', seat4: 'seat', seat5: 'seat occupied', seat6: 'seat', seat7: 'seat', seat8: 'seat', seat9: 'seat'
-  },
-  {
-    seat1: 'seat', seat2: 'seat', seat3: 'seat', seat4: 'seat', seat5: 'seat', seat6: 'seat', seat7: 'seat', seat8: 'seat', seat9: 'seat'
-  },
-  {
-    seat1: 'seat', seat2: 'seat', seat3: 'seat', seat4: 'seat', seat5: 'seat', seat6: 'seat', seat7: 'seat', seat8: 'seat', seat9: 'seat'
-  },
-  {
-<<<<<<< Updated upstream
-    seat1: 'seat', seat2: 'seat', seat3: 'seat', seat4: 'seat', seat5: 'seat', seat6: 'seat', seat7: 'seat', seat8: 'seat', seat9: 'seat'
-=======
-    seat1: 'seat',
-    seat2: 'seat',
-    seat3: 'seat',
-    seat4: 'seat',
-    seat5: 'seat',
-    seat6: 'seat',
-    seat7: 'seat',
-    seat8: 'seat',
-    seat9: 'seat',
-=======
     seat1: 'seat', seat2: 'seat', seat3: 'seat occupied', seat4: 'seat occupied', seat5: 'seat', seat6: 'seat', seat7: 'seat', seat8: 'seat', seat9: 'seat'
   },
   {
@@ -57,8 +16,6 @@ let seatData = [
   },
   {
     seat1: 'seat', seat2: 'seat', seat3: 'seat', seat4: 'seat', seat5: 'seat', seat6: 'seat', seat7: 'seat', seat8: 'seat', seat9: 'seat'
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
   },
 ];
 
@@ -79,27 +36,12 @@ function loadSeatData(seatData) {
     <div class="${seat.seat7}"></div>
     <div class="${seat.seat8}"></div>
     <div class="${seat.seat9}"></div>
-<<<<<<< Updated upstream
     </div>`
-=======
-<<<<<<< HEAD
-    </div>`;
-=======
-    </div>`
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
   }
   chairClass.innerHTML = seatChairs;
 }
 
-<<<<<<< Updated upstream
 
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
 const container = document.querySelector('.container');
 const seats = document.querySelectorAll('.row .seat:not(.occupied)');
 const count = document.getElementById('count');
@@ -121,15 +63,7 @@ function setMovieData(movieIndex, moviePrice) {
 function updateSelectedCount() {
   const selectedSeats = document.querySelectorAll('.row .seat.selected');
 
-<<<<<<< Updated upstream
   const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
-=======
-<<<<<<< HEAD
-  const seatsIndex = [...selectedSeats].map((seat) => [...seats].indexOf(seat));
-=======
-  const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
 
   sessionStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
 
@@ -161,30 +95,14 @@ function populateUI() {
 }
 
 // Movie select event
-<<<<<<< Updated upstream
 movieSelect.addEventListener('change', e => {
-=======
-<<<<<<< HEAD
-movieSelect.addEventListener('change', (e) => {
-=======
-movieSelect.addEventListener('change', e => {
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
   ticketPrice = +e.target.value;
   setMovieData(e.target.selectedIndex, e.target.value);
   updateSelectedCount();
 });
 
 // Seat click event
-<<<<<<< Updated upstream
 container.addEventListener('click', e => {
-=======
-<<<<<<< HEAD
-container.addEventListener('click', (e) => {
-=======
-container.addEventListener('click', e => {
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
   if (
     e.target.classList.contains('seat') &&
     !e.target.classList.contains('occupied')
@@ -199,42 +117,15 @@ container.addEventListener('click', e => {
 updateSelectedCount();
 
 //book ticket
-<<<<<<< Updated upstream
 bookTicket.addEventListener("click", function book() {
   swal({
     text: "Are you sure you want to confirm?",
     icon: "warning",
-=======
-<<<<<<< HEAD
-bookTicket.addEventListener('click', function book() {
-  swal({
-    text: 'Are you sure you want to confirm?',
-    icon: 'warning',
-=======
-bookTicket.addEventListener("click", function book() {
-  swal({
-    text: "Are you sure you want to confirm?",
-    icon: "warning",
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
     buttons: true,
   }).then((result) => {
     if (result) {
       window.location.replace('receipt.html');
-<<<<<<< Updated upstream
       // alert("Thank you for choosing out service.");
     }
   });
-});
-=======
-<<<<<<< HEAD
-    }
-  });
-});
-=======
-      // alert("Thank you for choosing out service.");
-    }
-  });
-});
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
+}); 

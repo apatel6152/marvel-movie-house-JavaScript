@@ -1,44 +1,4 @@
 body {
-<<<<<<< Updated upstream
-    background-color: #30336b;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-=======
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: 'Lato', sans-serif;
-  margin: 0;
->>>>>>> Stashed changes
-}
-
-.movie-container {
-    margin: 0px 20px;
-}
-
-.receipt-header {
-    color: #FA233B;
-}
-
-<<<<<<< Updated upstream
-.table-hover {
-    color: #FA233B;
-}
-=======
-#heading {
-  text-align: center;
-  margin: 1.5em 0;
-}
-=======
     background-color: #30336b;
     color: #fff;
     display: flex;
@@ -61,5 +21,3 @@ body {
 .table-hover {
     color: #FA233B;
 }
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes

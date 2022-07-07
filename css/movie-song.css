@@ -1,72 +1,4 @@
 .musicHeading {
-<<<<<<< Updated upstream
-    color: #dc3545;
-    margin: 1em 0;
-    font-weight: bolder;
-=======
-<<<<<<< HEAD
-  color: #dc3545;
-  margin: 1em 0;
-  font-weight: bolder;
->>>>>>> Stashed changes
-}
-.song-card {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    margin: 3em 0;
-}
-.song-card .display-song {
-    background: aliceblue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-}
-
-.song-card .audio {
-    padding: 3rem;
-}
-
-.song-card .display-song .art {
-    height: 200px;
-    margin: 0 auto;
-}
-.song-card .song-list {
-    padding: 1rem 5rem;
-    border-radius: 0 20px 20px 0;
-    background: transparent;
-    display: flex;
-    flex-direction: column;
-}
-.song-card .song-list .item {
-    padding: 0 1em;
-    background: white;
-    transition: all 0.3s ease;
-}
-
-.song-card .song-list .item.is-active {
-    background: aliceblue;
-    transition: all 0.3s ease;
-}
-.song-card .song-list .item:hover {
-    cursor: pointer;
-}
-
-footer {
-<<<<<<< Updated upstream
-=======
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 0;
-  background-color: #30336b;
-  color: white;
-  height: 3em;
-}
-=======
     color: #dc3545;
     margin: 1em 0;
     font-weight: bolder;
@@ -116,7 +48,6 @@ footer {
 }
 
 footer {
->>>>>>> Stashed changes
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +57,3 @@ footer {
     color: white;
     height: 3em;
   }
-<<<<<<< Updated upstream
-=======
->>>>>>> 1b21f1d (Adding sign in and signup)
->>>>>>> Stashed changes
