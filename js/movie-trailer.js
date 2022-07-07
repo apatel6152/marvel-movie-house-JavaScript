@@ -1,5 +1,44 @@
 let trailerData = [
   {
+<<<<<<< Updated upstream
+    img: 'image/ironman2.jpg', movieName: 'Iron Man', year: '2008, Jon Favreau', rating: '7.9/10', link: 'https://www.youtube.com/watch?v=8ugaeA-nMTc',
+=======
+<<<<<<< HEAD
+    img: 'image/ironman2.jpg',
+    movieName: 'Iron Man',
+    year: '2008, Jon Favreau',
+    rating: '7.9/10',
+    link: 'https://www.youtube.com/watch?v=8ugaeA-nMTc',
+>>>>>>> Stashed changes
+  },
+  {
+    img: 'image/captain.jpg', movieName: 'Captain America The First Avenger', year: '2011, Joe Johnston', rating: '6.9/10', link: 'https://www.youtube.com/watch?v=JerVrbLldXw',
+  },
+  {
+    img: 'image/thor4.jpg', movieName: 'Thor', year: '2011, Kennath branagh', rating: '7/10', link: 'https://www.youtube.com/watch?v=JOddp-nlNvQ',
+  },
+  {
+    img: 'image/hulk2.jpg', movieName: 'The Incredible Hulk', year: '2008, Louis Leterrier', rating: '6.6/10', link: 'https://www.youtube.com/watch?v=xbqNb2PFKKA',
+  },
+  {
+    img: 'image/Avengers.jpg', movieName: 'The Avengers', year: '2012, Joss Whedon', rating: '8/10', link: 'https://www.youtube.com/watch?v=eOrNdBpGMv8',
+  },
+  {
+    img: 'image/guardians3.jpg', movieName: 'Guardians of the Galaxy', year: '2014, James Gunn', rating: '8/10', link: 'https://www.youtube.com/watch?v=d96cjJhvlMA',
+  },
+  {
+    img: 'image/infinity.jpg', movieName: 'Avengers: Infinity War', year: '2018, Anthony and Joe Russo', rating: '8.4/10', link: 'https://www.youtube.com/watch?v=6ZfuNTqbHE8',
+  },
+  {
+<<<<<<< Updated upstream
+    img: 'image/endgame2.jpg', movieName: 'Avengers: Endgame', year: '2019, Anthony and Joe Russo', rating: '8.4/10', link: 'https://www.youtube.com/watch?v=TcMBFSGVi1c',
+=======
+    img: 'image/endgame2.jpg',
+    movieName: 'Avengers: Endgame',
+    year: '2019, Anthony and Joe Russo',
+    rating: '8.4/10',
+    link: 'https://www.youtube.com/watch?v=TcMBFSGVi1c',
+=======
     img: 'image/ironman2.jpg', movieName: 'Iron Man', year: '2008, Jon Favreau', rating: '7.9/10', link: 'https://www.youtube.com/watch?v=8ugaeA-nMTc',
   },
   {
@@ -22,6 +61,8 @@ let trailerData = [
   },
   {
     img: 'image/endgame2.jpg', movieName: 'Avengers: Endgame', year: '2019, Anthony and Joe Russo', rating: '8.4/10', link: 'https://www.youtube.com/watch?v=TcMBFSGVi1c',
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
   },
 ];
 
@@ -35,9 +76,25 @@ function loadTrailerData(trailerData) {
     trailers += `<div class="card movie_trailer_card"><img src="${trailer.img}"
     class="card-img-top" alt="..."><div class="card-body"><a href="${trailer.link}" target="_blank"><i class="fas fa-play play_button" data-toggle="tooltip" data-placement="bottom"
     title="Play Trailer"></i></a><h5 class="card-title"><b>${trailer.movieName}</b></h5><span class="movie_info"><b>${trailer.year}</b></span>
+<<<<<<< Updated upstream
     <span class="movie_info float-right"><b>Rating : ${trailer.rating}</b></span></div></div>`
   }
   trailerClass.innerHTML = trailers;
 }
 
 
+=======
+<<<<<<< HEAD
+    <span class="movie_info float-right"><b>Rating : ${trailer.rating}</b></span></div></div>`;
+  }
+  trailerClass.innerHTML = trailers;
+}
+=======
+    <span class="movie_info float-right"><b>Rating : ${trailer.rating}</b></span></div></div>`
+  }
+  trailerClass.innerHTML = trailers;
+}
+
+
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes

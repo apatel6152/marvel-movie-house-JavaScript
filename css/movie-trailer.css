@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{
  
    -webkit-user-select: none;
@@ -9,6 +10,26 @@ img {
     -webkit-user-drag: none;
     -moz-user-drag: none;
     -o-user-drag: none;
+=======
+<<<<<<< HEAD
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+=======
+*{
+ 
+   -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+img {
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
 }
 
 .trailer-container {
@@ -21,6 +42,23 @@ img {
 img {
   pointer-events: none;
 }
+<<<<<<< Updated upstream
+.movie_trailer_card{
+=======
+<<<<<<< HEAD
+.movie_trailer_card {
+>>>>>>> Stashed changes
+  padding: 0 !important;
+  width: 24rem;
+  margin:14px; 
+  border-radius: 10px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+<<<<<<< Updated upstream
+.movie_trailer_card img{
+=======
+.movie_trailer_card img {
+=======
 .movie_trailer_card{
   padding: 0 !important;
   width: 24rem;
@@ -29,10 +67,35 @@ img {
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
 }
 .movie_trailer_card img{
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 33rem;
 }
+<<<<<<< Updated upstream
+.movie_info{
+=======
+<<<<<<< HEAD
+.movie_info {
+>>>>>>> Stashed changes
+  color: #5e5c5c;
+}
+
+.movie_info i{
+  font-size: 20px;
+}
+.card-title{
+  width: 80%;
+  height: 4rem;
+}
+.play_button{
+  background-color: #ff3d49;
+<<<<<<< Updated upstream
+    position: absolute;
+=======
+  position: absolute;
+=======
 .movie_info{
   color: #5e5c5c;
 }
@@ -47,6 +110,8 @@ img {
 .play_button{
   background-color: #ff3d49;
     position: absolute;
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -55,17 +120,50 @@ img {
   font-size: 27px;
   padding-left: 21px;
   padding-top: 16px;
+<<<<<<< Updated upstream
   color: #FFFFFF;
   cursor: pointer;
 }
 
 .credits{
+=======
+<<<<<<< HEAD
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.credits {
+=======
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.credits{
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
   border: 2px solid #8e24aa;
   font-size: 18px;
 }
+<<<<<<< Updated upstream
+.credits .card-body{
+=======
+<<<<<<< HEAD
+.credits .card-body {
+>>>>>>> Stashed changes
+  padding: 0;
+}
+.credits p{
+  padding-top: 15px;
+  padding-left: 18px;
+}
+<<<<<<< Updated upstream
+.credits .card-body i{
+=======
+.credits .card-body i {
+=======
 .credits .card-body{
   padding: 0;
 }
@@ -74,6 +172,8 @@ img {
   padding-left: 18px;
 }
 .credits .card-body i{
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
   color: #8e24aa;
 }
 
@@ -88,6 +188,18 @@ footer {
   height: 3em;
 }
 
+<<<<<<< Updated upstream
  .heading{
   color: #dc3545;
 }
+=======
+<<<<<<< HEAD
+.heading {
+  color: #dc3545;
+}
+=======
+ .heading{
+  color: #dc3545;
+}
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes

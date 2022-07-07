@@ -45,7 +45,15 @@
 }
 
 .seat.selected {
+<<<<<<< Updated upstream
   background-color:#FA233B;
+=======
+<<<<<<< HEAD
+  background-color: #fa233b;
+=======
+  background-color:#FA233B;
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
 }
 
 .seat.occupied {
@@ -117,7 +125,15 @@ p.text {
 }
 
 p.text span {
+<<<<<<< Updated upstream
   color: #FA233B;
+=======
+<<<<<<< HEAD
+  color: #fa233b;
+=======
+  color: #FA233B;
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
 }
 
 .confirm {
@@ -137,4 +153,12 @@ footer {
   background-color: #30336b;
   color: white;
   height: 3em;
+<<<<<<< Updated upstream
 }
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes

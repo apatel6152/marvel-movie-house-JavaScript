@@ -32,7 +32,15 @@
   background-color: #fafafa;
 }
 
+<<<<<<< Updated upstream
 .formStyle h1{
+=======
+<<<<<<< HEAD
+.formStyle h1 {
+=======
+.formStyle h1{
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
   padding: 20px 0px;
 }
 
@@ -42,5 +50,28 @@
 
 #map {
   margin-top: 2em;
+<<<<<<< Updated upstream
   
 }
+=======
+<<<<<<< HEAD
+}
+iframe {
+  border: 0;
+  height: 590px;
+  width: 530px;
+}
+
+.form-group small {
+  visibility: hidden;
+}
+
+.form-group.error small {
+  color: red;
+  visibility: visible;
+}
+=======
+  
+}
+>>>>>>> 1b21f1d (Adding sign in and signup)
+>>>>>>> Stashed changes
